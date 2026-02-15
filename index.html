@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./public/assets/images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serat Jati - Spesialis Rumah Kayu</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              jati: '#8B4513',      // Cokelat Jati Utama
+              jatiMuda: '#A0522D',  // Aksen Kayu Muda
+              hitamArsip: '#1A1A1A' // Hitam Elegan untuk Teks
+            },
+            fontFamily: {
+              sans: ['Plus Jakarta Sans', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+
+    <style>
+      /* Base Style: Menghilangkan rounded dan setting font default */
+      * { 
+        border-radius: 0 !important; 
+      }
+      body {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        margin: 0;
+        -webkit-font-smoothing: antialiased;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
