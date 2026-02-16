@@ -6,9 +6,9 @@ import { Phone, MessageCircle, User, MapPin } from 'lucide-react';
 const ContactSection = () => {
   const contactInfo = {
     name: "Yusmar Aziz, S.Pd., M.Pd.",
-    phone: "0813 7371 0030",
-    wa: "0813 7371 0030",
-    location: "Sumatera Utara, Indonesia"
+    phone: "082228337943",
+    wa: "081903355588",
+    location: "Alamat desa serikandang RT 01 RW 10 kec bangsri kab Jepara propinsi Jawa tengah"
   };
 
   return (

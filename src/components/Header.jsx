@@ -7,11 +7,11 @@ const Header = () => {
       <div className="flex flex-wrap justify-center gap-4 md:gap-8 w-full">
         <div className="flex items-center gap-2">
           <Phone size={14} className="fill-current" />
-          <span>0813-7371-0030 / WA : 0813-7371-0030</span>
+          <span>0819-0335-5588 / WA : 082228337943</span>
         </div>
         <div className="flex items-center gap-2 border-l border-white/30 pl-4">
           <Mail size={14} />
-          <span>yusmaraziz6@gmail.com</span>
+          <span>cvceofurniturejepara@gmail.com</span>
         </div>
         <div className="flex items-center gap-3 border-l border-white/30 pl-4">
           <Facebook size={14} className="cursor-pointer hover:opacity-70" />

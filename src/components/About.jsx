@@ -65,7 +65,7 @@ const About = () => {
               
               <div className="text-center sm:text-left">
                 <p className="text-gray-400 text-[10px] font-bold uppercase tracking-widest">Respon Cepat via WA</p>
-                <p className="text-stone-800 font-bold text-sm">0813-7371-0030</p>
+                <p className="text-stone-800 font-bold text-sm">0822-2833-7943</p>
               </div>
             </div>
           </div>

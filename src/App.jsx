@@ -15,6 +15,8 @@ import ContactSection from './components/ContactSection';
 import WoodSpecifications from './components/WoodSpecifications';
 import OrderStep from './components/OrderStep';
 import GallerySection from './components/GallerySection';
+import TestimonialSection from './components/TestimonialSection';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -62,7 +64,9 @@ function App() {
         <ContactSection />
         <WoodSpecifications />
         <OrderStep />
-        <GallerySection /> {/* Simpan di sini */}
+        <GallerySection />
+        <TestimonialSection />
+        <Footer />
       </main>
       <WhatsAppFloat />
     </div>
