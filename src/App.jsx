@@ -8,6 +8,14 @@ import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import WhatsAppFloat from './components/WhatsAppFloat';
+import ProductSection from './components/ProductSection';
+import { Contact } from 'lucide-react';
+import ContactSection from './components/ContactSection';
+import WoodSpecifications from './components/WoodSpecifications';
+import OrderStep from './components/OrderStep';
+import GallerySection from './components/GallerySection';
+
 
 function App() {
   useEffect(() => {
@@ -50,7 +58,13 @@ function App() {
       <main>
         <Hero />
         <About />
+        <ProductSection />
+        <ContactSection />
+        <WoodSpecifications />
+        <OrderStep />
+        <GallerySection /> {/* Simpan di sini */}
       </main>
+      <WhatsAppFloat />
     </div>
   );
 }
